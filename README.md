@@ -2,7 +2,7 @@
 
 > HTML & CSS Halloween Card
 
-| <img src="demo/demo_halloween.gif" width="100%;"/> | 
+|[<img src="demo/demo_halloween.gif" width="100%;"/>](https://arianacabral.github.io/halloween-card/) | 
 | :---: |
 
 ## Technologies and Languages 💻
