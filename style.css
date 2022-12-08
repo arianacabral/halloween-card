@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Monoton', sans-serif;
+}
+
+body*{
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-right,.card-left{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    width: 60%;
+    color: #fc5a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+h1:hover{
+    filter: drop-shadow(1px 2px 1px #77ffc0);
+}
+
+.img-right{
+    width: 35vw; 
+}
+
+.img-right:hover{
+    filter: drop-shadow(2px 5px 2px #9013d4);
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 950px){
+    .card{
+        width: 85%;
+    }        
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        flex-direction: column;
+    }
+
+    .card-left,.card-right{
+        width: 100%;
+        height: auto;
+    }
+
+    .img-right{
+        width: 60vw;
+    }
+
+    .card{
+        width: 90%;
+    }        
+}
