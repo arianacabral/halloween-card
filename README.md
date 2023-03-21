@@ -14,11 +14,11 @@
 
 ## Installation Steps 🛠️
 
-You don't need to do anything to see and use this template. Then, clone the repository
+You don't need to do anything to see and use this template. If you are a git user, then you can install and keep up to date by cloning the repository:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/arianacabral/halloween-card.git
+git clone https://github.com/arianacabral/halloween-card.git
 ```
 
 ## Contributing 🍰
